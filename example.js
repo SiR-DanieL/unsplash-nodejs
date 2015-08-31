@@ -1,4 +1,4 @@
-var UnsplashAPI = require('./index.js');
+var UnsplashAPI = require('unsplash-api');
 
 var Unsplash = new UnsplashAPI({
   applicationID: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
