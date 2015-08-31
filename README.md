@@ -50,4 +50,5 @@ var Unsplash = new UnsplashAPI({
 
 ## Release History
 
+- 2015-08-30 - v1.0.1 - Missing data and files.
 - 2015-08-30 - v1.0.0 - Initial release.

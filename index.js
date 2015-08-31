@@ -20,7 +20,7 @@ function UnsplashAPI(opt) {
     throw new Error('applicationID is required');
   }
 
-  this.classVersion = '1.0.0';
+  this.classVersion = '1.0.1';
   this._setDefaultsOptions(opt);
 }
 
