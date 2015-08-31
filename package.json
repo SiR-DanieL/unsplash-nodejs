@@ -1,0 +1,28 @@
+{
+  "name": "unsplash-api",
+  "description": "A Node.js wrapper for the Unsplash API",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Nicola Mustone",
+  "keywords": [
+    "unsplash",
+    "rest-api",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SiR-DanieL/unsplash-api-nodejs.git"
+  }
+}
